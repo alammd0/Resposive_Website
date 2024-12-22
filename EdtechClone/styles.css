@@ -16,6 +16,9 @@
     background-color: rgba(0, 8, 20, 1);
 }
 
+
+/* NavBar Styling Start */
+
 .NavBar_Wrapper {
     border-bottom: 1px solid #bfa7a7;
     box-shadow: rgba(188, 174, 174, 0.1) 0px 4px 12px;
@@ -103,3 +106,5 @@
         display: flex;
     }
 }
+
+/* NavBar Styling END */
