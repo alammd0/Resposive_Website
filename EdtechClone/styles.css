@@ -425,6 +425,11 @@ pre {
     align-items: center;
 }
 
+@media screen and (max-width:980px) {
+    .unlock_wrapper{
+        display: none;
+    }
+}
 
 .lesson_card {
     background-color: #FFFFFF;
@@ -491,3 +496,47 @@ pre {
     justify-content: center;
     align-items: center;
 }
+
+
+/* job styling  */
+
+
+.job_wrapper{
+    max-width: 1180px;
+    margin: 0 auto;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.top_section_container{
+    display: flex;
+    gap: 120px;
+}
+
+.heading_top_section{
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: black;
+}
+
+
+.heading_top_section > h2 > span{
+    color: #139bd0;
+}
+
+.text_top_section_content{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+}
+
+.text_top_section_content > p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #443737;
+}
+
